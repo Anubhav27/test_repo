@@ -1,0 +1,50 @@
+                         Git basics
+
+
+1) https://help.github.com/articles/create-a-repo
+2) https://help.github.com/articles/fork-a-repo
+
+git@github.com:Anubhav27/Spoon-Knife.git
+
+
+
+Projects checking in Git from eclipse : HelloeclipseGit
+
+projects checking in Git from command line : spoon-knife and HelloWorld
+
+
+git frequestly used commands :
+
+git config -l (to list git config stored in .gitconfig
+
+git config --global user.name "Jerry Mouse"
+git config --global user.email "jerry@tutorialspoint.com"
+git config --global branch.autosetuprebase always
+git config --global color.ui true
+git config --global color.status auto
+git config --global color.branch auto
+
+
+mkdir repo
+
+cd repo
+
+git init
+
+git add <file>
+
+git commit -m "first commit"
+
+git remote add origin https://github.com/Anubhav27/test_repo.git
+
+git push -u origin master
+
+
+to clone git repository :
+
+
+git clone https://github.com/Anubhav27/test_repo.git
+
+
+done with git basic operations
+
